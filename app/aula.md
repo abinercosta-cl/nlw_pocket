@@ -31,3 +31,7 @@ Apresentar os Dados
 ## Estrutura de Repetição
 
 - [x] while
+
+## Condicionais
+
+- [x] switch
