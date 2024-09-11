@@ -26,4 +26,8 @@ Apresentar os Dados
 - [x] Arrow functions EX: const criarmetas = () => {}
 - [x] Named functions EX: function criarmetas() {
       codigo =====  
-      }
+       }
+
+## Estrutura de Repetição
+
+- [x] while
