@@ -1,7 +1,8 @@
 ## Linguagem de programação
 
 Maneira de dar instruções ao computador.
-Utilizando peça por peça para criar algoritimos e resolver problemas.
+Utilizando peça por peça para criar algoritimos e resolver problemas.tring
+
 **Algoritimos**:Sequencia de passos logicos para a resolução de um problema.
 
 ## Peças de uma linguagem
@@ -19,3 +20,10 @@ Utilizando peça por peça para criar algoritimos e resolver problemas.
 Coletar os Dados
 Processar os Dados(processar/alterar)
 Apresentar os Dados
+
+## Fuctions
+
+- [x] Arrow functions EX: const criarmetas = () => {}
+- [x] Named functions EX: function criarmetas() {
+      codigo =====  
+      }
