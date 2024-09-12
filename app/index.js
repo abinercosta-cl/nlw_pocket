@@ -22,6 +22,8 @@ const cadastrarMeta = async () => {
 
 }
 
+
+
 const listarMetas = async () => {
     const respostas = await checkbox({
         message: "Use as setas para selecionar as metas o espaço para marcar ou desmarcar, o enter para finalizar essa etapa.",
@@ -50,6 +52,23 @@ const listarMetas = async () => {
 
 }
 
+const metasRealizadas = async () => {
+    const realizadas = metas.filter((meta) => {
+        return meta.checked
+    })
+
+    if(realizadas.length == 0){
+        console.log("Não existem metas realizadas.")
+        return
+    }
+
+    await select({
+        message: "Metas realizadas",
+        choices: [...realizadas]
+    })
+} 
+
+
 async function start  () {
 
     while(true){
@@ -66,6 +85,10 @@ async function start  () {
                     value: "listar"
                 },
                 {
+                    name: "Metas realizadas",
+                    value: "realizadas"
+                },
+                {
                     name: "Sair",
                     value: "sair"
                 }
@@ -78,7 +101,9 @@ async function start  () {
                 break
             case "listar":
                 await listarMetas()
-                console.log("vamos listar")
+                break
+            case "realizadas":
+                await metasRealizadas()
                 break
             case "sair":
                 console.log("Até a Proximá!!")
