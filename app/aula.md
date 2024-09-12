@@ -45,3 +45,16 @@ Apresentar os Dados
 ## Programação assincrona e promessas
 
 - [x] Uso de funções assincronas e promessas(async/await)
+
+## Estrutura de dados
+
+### Arrays
+
+- [x] uma lista que contem qualquer tipo de dado
+- [x] metodos de Array: push, [find, forEach, filter] : HOF(Higher Order Functions)
+
+### Objetos
+
+- [x] Atributos e Metodos
+- [x] Criação e Manipulação de objetos
+- [x] Acesso a propriedades de objetos
