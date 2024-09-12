@@ -17,7 +17,7 @@ async function start  () {
                 },
                 {
                     name: "Sair",
-                    values: "sair"
+                    value: "sair"
                 }
             ]
         })
@@ -30,7 +30,7 @@ async function start  () {
                 break
             case "sair":
                 console.log("Até a Proximá!!")
-                return
+                return;
         }
     }
 }
