@@ -39,8 +39,15 @@ Apresentar os Dados
 
 ## Modulos em nodejs
 
-- [] Importação de modulos(Require, commonjs)
-  Biblioteca 'inquire' para criar prompts interativos
+- [x] Importação de modulos(Require, commonjs)
+- [x] Biblioteca 'inquire' para criar prompts interativos
+- [x] FS (file system)
+
+## JSON
+
+- [x] JavaScript object notation (.json)
+- [x] JASON.parse(): _transforma de json para js_
+- [x] JASON.stingify(): _transforma de js para json_
 
 ## Programação assincrona e promessas
 
